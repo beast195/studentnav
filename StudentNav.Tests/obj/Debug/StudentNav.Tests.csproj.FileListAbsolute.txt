@@ -1,0 +1,120 @@
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\StudentNav.Tests.dll.config
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\StudentNav.Tests.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\StudentNav.Tests.pdb
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\StudentNav.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Owin.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\EntityFramework.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\StudentNav.pdb
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\EntityFramework.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\obj\Debug\StudentNav.Tests.csprojResolveAssemblyReference.cache
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\obj\Debug\StudentNav.Tests.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\obj\Debug\StudentNav.Tests.pdb
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\SendGrid.dll
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\SendGrid.pdb
+C:\Users\MbusoMkhize\documents\visual studio 2015\Projects\StudentNav\StudentNav.Tests\bin\Debug\SendGrid.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\ApplicationInsights.config
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\roslyn\csc.exe
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\roslyn\vbc.exe
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\StudentNav.Tests.dll.config
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\StudentNav.Tests.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\StudentNav.Tests.pdb
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\StudentNav.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Razor.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\SendGrid.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Owin.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\EntityFramework.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\StudentNav.pdb
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\StudentNav.dll.config
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Razor.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\SendGrid.pdb
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\SendGrid.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\EntityFramework.xml
+C:\Beast\StudentNav\StudentNav.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Beast\StudentNav\StudentNav.Tests\obj\Debug\StudentNav.Tests.csprojResolveAssemblyReference.cache
+C:\Beast\StudentNav\StudentNav.Tests\obj\Debug\StudentNav.Tests.dll
+C:\Beast\StudentNav\StudentNav.Tests\obj\Debug\StudentNav.Tests.pdb
