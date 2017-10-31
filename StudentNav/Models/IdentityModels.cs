@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -25,6 +26,7 @@ namespace StudentNav.Models
     {
         public string ProfileImagePath { get; set; }
         public string Institution { get; set; }
+        [Display(Name = "First Name(s)")]
         public string FirstName{ get; set; }
         public string Surname { get; set; }
         public Gender Gender { get; set; }
@@ -33,14 +35,16 @@ namespace StudentNav.Models
         public InstitutionType InstitutionType { get; set; }
 
         public string HighSchool { get; set; }
-
+        [Display(Name = "Field Of Study")]
         public string FieldOfStudy { get; set; }
 
         public string Province { get; set; }
 
         public int Grade { get; set; }
-
+        [Display(Name = "Level Of Study")]
         public string LevelOfStudy { get; set; }
+        [Display(Name = "Date Of Birth")]
+        public string DateOfBirth { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {

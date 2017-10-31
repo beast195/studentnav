@@ -5,6 +5,7 @@ using StudentNav.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -365,7 +366,7 @@ namespace StudentNav.Controllers
         // POST: /Manage/AddPhoneNumber
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> EditProfile([Bind(Include = "FirstName,Surname,FieldOfStudy,LevelOfStudy,HighSchool,Grade,Institution,Province,InstitutionType,Race,Gender,ProfileImagePath")] UpdateUserProfileViewModel model)
+        public async Task<ActionResult> EditProfile([Bind(Include = "FirstName,Surname,FieldOfStudy,LevelOfStudy,HighSchool,Grade,Institution,Province,InstitutionType,Race,Gender,DateOfBirth,ProfileImagePath")] UpdateUserProfileViewModel model)
         {
             if (!ModelState.IsValid)
             {
@@ -381,6 +382,7 @@ namespace StudentNav.Controllers
             userProfile.FirstName = model.FirstName;
             userProfile.Surname = model.Surname;
             userProfile.InstitutionType = model.InstitutionType;
+            userProfile.DateOfBirth = model.DateOfBirth;
             if (model.InstitutionType == InstitutionType.HighSchool)
             {
                 userProfile.FieldOfStudy = null;

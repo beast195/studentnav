@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -265,6 +266,10 @@
     <Compile Include="Migrations\201707280839004_SetDefaultAdmin.Designer.cs">
       <DependentUpon>201707280839004_SetDefaultAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710310922551_addDateOfBirth.cs" />
+    <Compile Include="Migrations\201710310922551_addDateOfBirth.Designer.cs">
+      <DependentUpon>201710310922551_addDateOfBirth.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Article.cs" />
@@ -360,6 +365,7 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\StudentNav.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -515,6 +521,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201707280839004_SetDefaultAdmin.resx">
       <DependentUpon>201707280839004_SetDefaultAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710310922551_addDateOfBirth.resx">
+      <DependentUpon>201710310922551_addDateOfBirth.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

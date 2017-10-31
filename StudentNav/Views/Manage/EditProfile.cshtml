@@ -44,6 +44,14 @@
                 @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
             </div>
         </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.DateOfBirth, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10 forml">
+                @Html.EditorFor(model => model.DateOfBirth, new { htmlAttributes = new { @class = "form-control" ,@placeholder = "dd/MM/yyyy"} })
+                @Html.ValidationMessageFor(model => model.DateOfBirth, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
        
 
         <div class="form-group">
@@ -76,7 +84,7 @@
                 <div class="form-group">
                     @Html.LabelFor(model => model.LevelOfStudy, htmlAttributes: new { @class = "control-label col-md-2" })
                     <div class="col-md-10 forml">
-                        @Html.DropDownList("LevelOfStudy",(SelectList)ViewBag.LevelStudy, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.DropDownList("LevelOfStudy",Model.LevelsOfStudys, new { htmlAttributes = new { @class = "form-control" } })
                         @Html.ValidationMessageFor(model => model.LevelOfStudy, "", new { @class = "text-danger" })
                     </div>
                 </div>

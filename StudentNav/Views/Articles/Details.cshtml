@@ -13,17 +13,10 @@
 <hr />
 <div class="row">
     
-    @if (Html.Action("GetBlogPermission", "Manage").ToString() == "Allowed")
-    {
-        <p><span class="likes"><a href="/Articles/Edit/@Model.Id?fromdets=fromdets"><i class="fa fa-heart"></i> @Model.Likes.Count Likes</a></span></p>
+  
 
-    }
-    else
-    {
+        <p></p>
 
-        <p><span class="likes"><a href="javascript:openModalReg()" ><i class="fa fa-heart"></i> @Model.Likes.Count Likes</a></span></p>
-
-    }
     <h4>Posted on @Model.DatePosted </h4>
     <p>@Html.Raw(Model.Content)</p>
 </div>
@@ -45,7 +38,7 @@
                         </div>
                         <div class="col_md_3_list">
                             <div class="cont_text_date">
-                                <p><span data-livestamp="@(comment.Date) "></span></p>
+                                <p><span></span></p>
                             </div>
                         </div>
                     </li>

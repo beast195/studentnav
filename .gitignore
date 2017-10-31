@@ -1,0 +1,7 @@
+.vs/StudentNav/
+.vs/config/applicationhost.config
+StudentNav/Properties/PublishProfiles/CustomProfile.pubxml
+StudentNav/Properties/
+StudentNav/obj/
+StudentNav.Tests/obj/
+StudentNav/bin/

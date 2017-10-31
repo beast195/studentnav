@@ -25,6 +25,7 @@
     <link href="/Content/navcss/responsive.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="/Images/fav.ico">
+    <script src="~/Scripts/navjs/moment.js" ></script>
 </head><!--/head-->
 <body>
     <!--.preloader-->
@@ -65,7 +66,7 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="#team" class="dropdown-toggle" data-toggle="dropdown"> sponsors & agenices</a>
+                            <a href="#team" class="dropdown-toggle" data-toggle="dropdown"> sponsors & agencies</a>
                             <ul class="dropdown-menu dropdown-menu-left">
                                 <li><a href="/Sponsors/Bursary">Bursary Basket</a></li>
                                 <li><a href="/Sponsors/EmploymentAgencies">Employment Basket </a></li>
@@ -96,13 +97,13 @@
                     <div class="item active" style="background-image: url(/Images/slider/1.jpg)">
                         <div class="caption">
                             <h1 class="animated fadeInLeftBig">Welcome to <span>StudentNav</span></h1>
-                            <p class="animated fadeInRightBig">We provide exciting content for all students</p>
+                            <p class="animated fadeInRightBig">WE PROVIDE EXCITING CONTENT FOR ALL READERS</p>
                         </div>
                     </div>
                     <div class="item" style="background-image: url(/Images/slider/2.jpg)">
                         <div class="caption">
-                            <h1 class="animated fadeInLeftBig"><span>StudentNav</span> is you personal guide</h1>
-                            <p class="animated fadeInRightBig">We have alot of insight on career decisions </p>
+                            <h1 class="animated fadeInLeftBig"><span>StudentNav</span> is your personal guide</h1>
+                            <p class="animated fadeInRightBig">WE PROVIDE PROFESSIONAL CAREER INSIGHT </p>
                         </div>
                     </div>
                     <div class="item" style="background-image: url(/Images/slider/3.jpg)">
@@ -222,6 +223,7 @@
             </div>
         </div>
     </footer>
+    <script src="~/Scripts/navjs/moment.js"></script>
     <script>
         function openModal() {
             var meddle = document.getElementById("mymodal");
@@ -240,7 +242,7 @@
             meddle.setAttribute("class", "disappear");
         }
     </script>
-
+   
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/navjs")
