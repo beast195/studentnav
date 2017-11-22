@@ -27,6 +27,13 @@
     <link rel="shortcut icon" href="/Images/fav.ico">
     <script src="~/Scripts/navjs/moment.js" ></script>
 </head><!--/head-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+ (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-2396844436203533",
+        enable_page_level_ads: true
+    });
+</script>
 <body>
     <!--.preloader-->
     <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
@@ -74,7 +81,7 @@
                         </li>
                         <li class=""><a href="/BlogPosts">Blog</a></li>
                         <li class="nothing"><a href="#nothing">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                        <li class="dropdown login">
+                        <li id="userpr" class="dropdown login">
                             @Html.Partial("_LoginPartial")
                         </li>
                     </ul>
@@ -224,6 +231,7 @@
         </div>
     </footer>
     <script src="~/Scripts/navjs/moment.js"></script>
+    
     <script>
         function openModal() {
             var meddle = document.getElementById("mymodal");
@@ -243,7 +251,7 @@
         }
     </script>
    
-    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jquery")    
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/navjs")
 

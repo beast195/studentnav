@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNet.Identity;
 using StudentNav.Models;
+using StudentNav.Services;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
@@ -14,6 +15,7 @@ namespace StudentNav.Controllers
     public class HomeController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
+        private ImageService imgService = new ImageService();
 
         //public ActionResult Index()
         //{
@@ -32,8 +34,6 @@ namespace StudentNav.Controllers
         //    return View(articles);
         //}
 
-
-
         public ViewResult Index(string search = null, int? page = null)
         {
             var currentpage = page ?? 0;
@@ -50,7 +50,7 @@ namespace StudentNav.Controllers
             List<ArticleViewModel> articles = null;
             if (!String.IsNullOrEmpty(search))
             {
-                articles = db.Articles.Where(sc => sc.ArticleType == ArticleType.General && ( sc.Title.Contains(search) || sc.Content.Contains(search) || sc.Author.FirstName.Contains(search)))
+                articles = db.Articles.Where(sc => sc.ArticleType == ArticleType.General && (sc.Title.Contains(search) || sc.Content.Contains(search) || sc.Author.FirstName.Contains(search)))
                    .Include(c => c.MediaContents).Include(c => c.Author).Select(s => new ArticleViewModel
                    {
                        Id = s.Id,
@@ -63,16 +63,16 @@ namespace StudentNav.Controllers
             }
             else
             {
-                articles = db.Articles.Where(c=>c.ArticleType == ArticleType.General)
+                articles = db.Articles.Where(c => c.ArticleType == ArticleType.General)
                     .Include(c => c.MediaContents).Include(c => c.Author).Select(s => new ArticleViewModel
                     {
                         Id = s.Id,
-                        Title = s.Title.Length > 35 ? s.Title.Substring(0, 35)+"..." : s.Title,
+                        Title = s.Title.Length > 35 ? s.Title.Substring(0, 35) + "..." : s.Title,
                         MediaLinks = s.MediaContents.Select(c => c.MediaLink).ToList(),
                         DatePosted = s.DatePosted,
                         Author = s.Author,
                         Content = s.Content
-                    })     
+                    })
                 .OrderByDescending(o => o.DatePosted).Skip(currentpage).Take(6).ToList();
             }
 
@@ -87,7 +87,6 @@ namespace StudentNav.Controllers
             return View(articles);
         }
 
-        
         public string GetDescription(string cont)
         {
             var matches = Regex.Matches(cont, @"[\w\s]+");
@@ -139,7 +138,7 @@ namespace StudentNav.Controllers
         }
 
         [HttpPost]
-        public ActionResult Article([Bind(Include = "MyFiles,Title,ArticleType,Content")] UploadArticleViewModel model)
+        public async Task<ActionResult> Article([Bind(Include = "MyFiles,Title,ArticleType,Content")] UploadArticleViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -154,14 +153,12 @@ namespace StudentNav.Controllers
                 {
                     foreach (HttpPostedFileBase upload in model.MyFiles)
                     {
-                        var fileName = Path.GetFileName(upload.FileName);
-                        var serverPath = Path.Combine(Server.MapPath("/Images/ArticlePics/" + fileName));
-                        upload.SaveAs(serverPath);
+                        var imageLink = await imgService.CreatePhoto(upload.InputStream);
                         var mediaContent = new ArticleMediaContent
                         {
                             ContentType = upload.ContentType,
-                            MediaType = upload.ContentType.Contains("image") ? MediaType.Images : MediaType.Videos,
-                            MediaLink = "/Images/ArticlePics/" + fileName
+                            MediaType = MediaType.Images,
+                            MediaLink = imageLink
                         };
                         mediaContents.Add(mediaContent);
                     }

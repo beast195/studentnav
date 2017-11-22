@@ -20,7 +20,8 @@ namespace StudentNav
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js",
+                      "~/Scripts/bootstrap*",
+                       "~/Scripts/navjs/bootstrap.bundle.js",
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
@@ -30,6 +31,7 @@ namespace StudentNav
 
             bundles.Add(new ScriptBundle("~/bundles/navjs").Include(
                       "~/Scripts/navjs/*.js",
+                      "~/Scripts/navjs/bootstrap.bundle.js",
                         "~/Scripts/navjs/jquery.interview.min.js",
                        "~/Scripts/navjs/lightbox.min.js",
                         "~/Scripts/navjs/respond.min.js",

@@ -2,6 +2,7 @@
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using StudentNav.Models;
+using StudentNav.Services;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -20,6 +21,7 @@ namespace StudentNav.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
+        private ImageService imgService = new ImageService();
         private ApplicationDbContext db = new ApplicationDbContext();
 
         public ManageController()
@@ -390,7 +392,7 @@ namespace StudentNav.Controllers
                 userProfile.Institution = null;
                 if (model.HighSchool != null)
                     userProfile.HighSchool = model.HighSchool;
-                if (model.Grade == 0)
+                if (model.Grade > 0)
                     userProfile.Grade = model.Grade;
                 if (model.Province != null)
                     userProfile.Province = model.Province;
@@ -414,10 +416,7 @@ namespace StudentNav.Controllers
             userProfile.Gender = model.Gender;
             if (model.ProfileImagePath != null)
             {
-                var fileName = Path.GetFileName(model.ProfileImagePath.FileName);
-                var serverPath = Path.Combine(Server.MapPath("/Images/ProfilePics/" + fileName));
-                model.ProfileImagePath.SaveAs(serverPath);
-                userProfile.ProfileImagePath = "/Images/ProfilePics/" + fileName;
+                userProfile.ProfileImagePath = await imgService.CreatePhoto(model.ProfileImagePath.InputStream); ;
             }
             db.Entry(userProfile).State = EntityState.Modified;
             await db.SaveChangesAsync();

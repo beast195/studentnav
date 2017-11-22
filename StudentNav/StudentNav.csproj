@@ -292,6 +292,7 @@
     <Compile Include="Models\UploadBlogPostViewModel.cs" />
     <Compile Include="Models\UserViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ImageService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -321,6 +322,7 @@
     <Content Include="Images\ads1.jpg" />
     <Content Include="Images\ads2.jpg" />
     <Content Include="Images\ArticlePics\st.jpg" />
+    <Content Include="Images\BlogPics\blackback.png" />
     <Content Include="Images\blog\1.jpg" />
     <Content Include="Images\blog\2.jpg" />
     <Content Include="Images\blog\3.jpg" />
@@ -340,11 +342,14 @@
     <Content Include="Images\lightbox\next.png" />
     <Content Include="Images\lightbox\prev.png" />
     <Content Include="Images\logo.png" />
+    <Content Include="Images\ProfilePics\dutmustfall.jpg" />
     <Content Include="Images\slider\1.jpg" />
     <Content Include="Images\slider\2.jpg" />
     <Content Include="Images\slider\3.jpg" />
+    <Content Include="Images\SponsorPics\agent2.jpg" />
     <Content Include="Images\twitter-bg.jpg" />
     <Content Include="Images\user.png" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -368,14 +373,15 @@
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\StudentNav.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-3.2.1.js" />
+    <Content Include="Scripts\jquery-3.2.1.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\navjs\bootstrap.bundle.js" />
     <Content Include="Scripts\navjs\bootstrap.min.js" />
     <Content Include="Scripts\navjs\html5shiv.js" />
     <Content Include="Scripts\navjs\jquery.countTo.js" />
@@ -470,9 +476,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Images\BlogPics\" />
-    <Folder Include="Images\ProfilePics\" />
-    <Folder Include="Images\SponsorPics\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

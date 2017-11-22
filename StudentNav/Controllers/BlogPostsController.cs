@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNet.Identity;
 using StudentNav.Models;
+using StudentNav.Services;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -8,6 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
@@ -16,6 +18,7 @@ namespace StudentNav.Controllers
     public class BlogPostsController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
+        private ImageService imgService = new ImageService();
 
         public ViewResult Index(string search = null, int? page = null)
         {
@@ -146,7 +149,7 @@ namespace StudentNav.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize]
-        public ActionResult Create([Bind(Include = "Title,MediaFiles,Content")] UploadBlogPostViewModel uploadBlogPost)
+        public async Task<ActionResult> Create([Bind(Include = "Title,MediaFiles,Content")] UploadBlogPostViewModel uploadBlogPost)
         {
             if (ModelState.IsValid)
             {
@@ -160,14 +163,12 @@ namespace StudentNav.Controllers
                 var mediaContents = new List<MediaContent>();
                 foreach (HttpPostedFileBase upload in uploadBlogPost.MediaFiles)
                 {
-                    var fileName = Path.GetFileName(upload.FileName);
-                    var serverPath = Path.Combine(Server.MapPath("/Images/BlogPics/" + fileName));
-                    upload.SaveAs(serverPath);
+                    var imageLink = await imgService.CreatePhoto(upload.InputStream);
                     var mediaContent = new MediaContent
                     {
                         ContentType = upload.ContentType,
-                        MediaType = upload.ContentType.Contains("image") ? MediaType.Images : MediaType.Videos,
-                        MediaLink = "Images/BlogPics/" + fileName
+                        MediaType = MediaType.Images ,//upload.ContentType.Contains("image") ? MediaType.Images : MediaType.Videos,
+                        MediaLink = imageLink
                     };
                     mediaContents.Add(mediaContent);
                 }

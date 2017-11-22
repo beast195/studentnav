@@ -45,7 +45,7 @@ namespace StudentNav.Controllers
             return View(articleViewModel);
         }
 
-        [Authorize(Roles = "Admin,ContentProvider")]
+        [Authorize(Roles = "Admin,CProvider")]
         // GET: Articles/Create
         public ActionResult Create()
         {
@@ -55,7 +55,7 @@ namespace StudentNav.Controllers
         // POST: Articles/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [Authorize(Roles = "Admin,ContentProvider")]
+        [Authorize(Roles = "Admin,CProvider")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,Title,DatePosted,MediaType,Content")] Article article)

@@ -5,3 +5,6 @@ StudentNav/Properties/
 StudentNav/obj/
 StudentNav.Tests/obj/
 StudentNav/bin/
+StudentNav.Tests/bin/Debug/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+packages/
+StudentNav.Tests/
